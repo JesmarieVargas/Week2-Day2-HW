@@ -1,55 +1,55 @@
-# # The Calculator App
+# The Calculator App
 
-# # Task 1
+# Task 1
 
-# # Arithmetic operations with parameters for two numbers
+# Arithmetic operations with parameters for two numbers
 
-# num1 = 10
-# num2 = 2
+num1 = 10
+num2 = 2
 
-# def addition(num1, num2):
-#     return num1 + num2
-# total = addition(10,2)
-# print(total)
+def addition(num1, num2):
+    return num1 + num2
+total = addition(10,2)
+print(total)
 
-# def subtraction(num1, num2):
-#     return num1 - num2
-# total = subtraction(10,2)
-# print(total)
+def subtraction(num1, num2):
+    return num1 - num2
+total = subtraction(10,2)
+print(total)
 
-# def multiplication(num1, num2):
-#     return num1 * num2
-# total = multiplication(10,2)
-# print(total)
+def multiplication(num1, num2):
+    return num1 * num2
+total = multiplication(10,2)
+print(total)
 
-# def division(num1, num2):
-#     return num1 / num2
-# total = division(10,2)
-# print(total)
+def division(num1, num2):
+    return num1 / num2
+total = division(10,2)
+print(total)
 
-# Task 2
+Task 2
 
-# # User input to receive numbers and operation choice with associated functions
+# User input to receive numbers and operation choice with associated functions
 
-# num1 = int(input("Enter the first number"))
-# num2 = int(input("Enter the second number"))
-# operation = str(input(" Enter the operation of choice"))
+num1 = int(input("Enter the first number"))
+num2 = int(input("Enter the second number"))
+operation = str(input(" Enter the operation of choice"))
 
-# if operation == "addition":
-#     # print("{} + {}=".format(num1, num2))
-#     print(addition(num1, num2))
+if operation == "addition":
+    # print("{} + {}=".format(num1, num2))
+    print(addition(num1, num2))
 
-# if operation == "subtraction":
-#     # print("{} - {}=".format(num1, num2))
-#     print(subtraction(num1, num2))
+if operation == "subtraction":
+    # print("{} - {}=".format(num1, num2))
+    print(subtraction(num1, num2))
 
-# if operation == "multiplication":
-#     # print("{} * {}=".format(num1, num2))
-#     print(multiplication(num1,num2))
+if operation == "multiplication":
+    # print("{} * {}=".format(num1, num2))
+    print(multiplication(num1,num2))
 
-# if operation == "division":
-#     # print("{} / {}=".format(num1, num2))
-#     print(division(num1, num2))
+if operation == "division":
+    # print("{} / {}=".format(num1, num2))
+    print(division(num1, num2))
 
 # The Shopping List Maker
 
